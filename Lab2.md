@@ -5,4 +5,5 @@ Q-2 Describe how this application can be deployed in the cloud using PaaS infras
 Ans= Deploying this application using PaaS involves using cloud services to handle much of the heavy lifting for you. For the backend, you can use services like Azure App Service or AWS Elastic Beanstalk, which ensure your code runs smoothly while automatically managing the servers. For the React front end, platforms like Netlify or Azure Static Web Apps can host your static files and provide features like HTTPS and global content delivery. For the database, you can use a service like Google Cloud SQL or Amazon RDS, which eliminates the need to worry about installation, backups, or scaling. These platforms allow your application to connect securely to the database, and the front end communicates with Flask using environment variables for secure connections like SSL. From your code repository, you can set up automated deployments, making updates seamless.
 
 Q-3 For each case, draw a diagram that represents the target architecture and describe each of the chosen cloud components.
+Answer of the this question attached with link
 
