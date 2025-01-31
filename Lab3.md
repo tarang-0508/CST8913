@@ -49,3 +49,4 @@
 | **DMZ (Public-facing services)**              | Cloud-native WAF and CDN                        | **PaaS (AWS CloudFront, Azure Front Door, Google Cloud CDN)** |
 
 
+
