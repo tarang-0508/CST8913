@@ -49,4 +49,82 @@
 | **DMZ (Public-facing services)**              | Cloud-native WAF and CDN                        | **PaaS (AWS CloudFront, Azure Front Door, Google Cloud CDN)** |
 
 
+##Section-2
+
+Migration Plan
+
+1) Web Application
+The assessment of existing dependencies should lead to monolithic code restructuring when required.
+
+Implement the test environment using selected PaaS platform.
+
+The migration of the web application follows up with performance testing procedures.
+
+Switch traffic to the new cloud environment via DNS updates.
+
+Discontinue using on-prem servers after the migration reaches stability.
+
+
+2) Database 
+
+Migrate the database from its current hosting to an Infrastructure as a Service-based Microsoft SQL Server setup.
+
+Enhancing database queries and index performance will deliver cloud system speed.
+
+The solution requires migration towards PaaS Database Service through platforms like AWS RDS or Azure SQL or their equivalents.
+
+The system must undergo testing of connectivity between applications while resolving all encountered compatibility problems.
+
+End operation of the IaaS SQL instance following a stable migration performs successfully.
+
+
+3) File Storage
+
+The team needs to evaluate storage demand alongside performance standards.
+
+Cloud object storage implementation accompanied by permission setup procedures.
+
+Cloud migration tools including AWS S3 Transfer and Azure Storage Migration should be used to move data.
+
+The application needs reconfigured settings that point to the new storage resources.
+
+The retirement of local storage requires confirmation of access and performance before it can proceed.
+
+
+4)  Networking
+
+Design hybrid cloud network architecture.
+
+Conduct a setup of VPC, VPN or Direct Connect solutions for establishing secure network connections.
+
+Establish security configurations for firewalls in addition to Web application firewalls and Distributed Denial of Service defense systems.
+
+Both the performance of the network and strategies for failover need to be tested.
+
+Logs should be monitored alongside security rules optimization.
+
+
+5) Email Services
+
+Evaluate SaaS providers and select a service (AWS SES, Microsoft 365, etc.).
+
+Migrate email data and configure domains.
+
+Update SMTP settings in applications.
+
+Test email delivery and security policies.
+
+Decommission on-prem email servers.
+
+# Cloud Migration
+
+| On-Prem Component  | Migration Strategy                                | Cloud Offering                                    | Reasoning |
+|--------------------|--------------------------------------------------|--------------------------------------------------|-----------|
+| **Web Application** | Refactor to PaaS | PaaS (AWS Elastic Beanstalk, Azure App Service) | Reduces operational overhead, enables auto-scaling, and improves deployment efficiency. |
+| **Database** | Lift-and-Shift to IaaS, then migrate to PaaS | IaaS (AWS EC2 + SQL Server, Azure VMs + SQL) → PaaS (AWS RDS, Azure SQL) | Ensures minimal downtime initially, then moves to PaaS for better scalability. |
+| **File Storage** | Migrate to Object Storage | PaaS (Amazon S3, Azure Blob Storage) | Reduces infrastructure management and improves availability. |
+| **Networking** | Implement Cloud-Native Networking | IaaS (AWS VPC, Azure Virtual Network) | Ensures security, redundancy, and hybrid connectivity. |
+| **Email Services** | Move to SaaS | SaaS (AWS SES, SendGrid, Microsoft 365) | Reduces management complexity and provides built-in security & compliance. |
+
+
 
