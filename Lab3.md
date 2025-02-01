@@ -126,5 +126,51 @@ Decommission on-prem email servers.
 | **Networking** | Implement Cloud-Native Networking | IaaS (AWS VPC, Azure Virtual Network) | Ensures security, redundancy, and hybrid connectivity. |
 | **Email Services** | Move to SaaS | SaaS (AWS SES, SendGrid, Microsoft 365) | Reduces management complexity and provides built-in security & compliance. |
 
+Hybrid Migration Plan
+
+1) Web Application
+
+The first step deploys the web app through cloud VMs (Infrastructure as a Service) for ensuring system stability.
+
+The second phase focuses on refractometer towards PaaS systems which includes AWS Elastic Beanstalk and Azure App Service.
+
+2) Database 
+
+The initial step entails migrating SQL Server into a virtual machine using cloud infrastructure as a service (IaaS) while maintaining database synchronization between on-premises and cloud databases.
+
+The database will transition from cloud VM (IaaS) in Phase 1 to PaaS solutions like AWS RDS and Azure SQL in Phase 2 for automated management control.
+
+3) File Storage
+
+The first phase involves transferring enumerate files to virtual machine storage in the cloud through Infrastructure as a Service (IaaS).
+
+The business should transition to PaaS platforms such as AWS S3 and Azure Blob solutions for scalability purposes after Phase 1 completes.
+
+4)  Networking
+
+The first phase establishes either Hybrid VPN or Direct Connect to manage the transition successfully.
+
+Moving operations to cloud-native networking infrastructure includes VPC and security groups with firewalls should be implemented during Phase 2.
+
+5) Email Services
+
+The first phase involves synchronization of on-site mail servers to operate through a cloud-based relay.
+
+SaaS migration to Microsoft 365 or Google Workspace will become the complete operational strategy.
+
+
+## Hybrid Migration Strategy per Component
+
+| Component       | Phase 1 (Temporary - Hybrid) | Phase 2 (Final - Cloud) | Migration Strategy |
+|---------------|------------------------------|--------------------------|---------------------|
+| **Web Application** | IaaS (VMs in Cloud) | PaaS (App Service) | **Replatform** (Hybrid IaaS → PaaS) |
+| **Database** | IaaS (SQL on VM) | PaaS (Managed SQL) | **Rehost** (Hybrid SQL replication) |
+| **File Storage** | Hybrid Storage (VM-based) | PaaS (S3, Blob Storage) | **Replatform** |
+| **Networking** | Hybrid VPN / Direct Connect | Cloud-Native (VPC, WAF) | **Re-architect** |
+| **Email Service** | Hybrid Email Sync | SaaS (Microsoft 365, Google Workspace) | **Replace** |
+
+
+
+
 
 
