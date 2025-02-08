@@ -98,10 +98,10 @@ The Global Load Balancer handles incoming traffic before regional load balancers
 
 
 Q-3: The steps of migration, including:
-
 Replication of virtual machines across regions.
 Configuration of load balancers.
 Implementation of database replication and failover.
+
 Ans: Smooth migration of the two-VM application (WebServerVM and SQLVM) into a multi-region cloud architecture requires specific steps that ensure availability and reduce downtime. Virtual machine replication, load balancer setup, and database replication with failover mechanisms form the core steps of the migration process.
 
 1) Replication of Virtual Machines Across Regions:
