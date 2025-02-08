@@ -25,19 +25,29 @@ Failover Mechanism
 The system sends traffic to Region B when Region A encounters outages.
 After an outage, the Region B database replication automatically takes over as the primary to ensure data consistency.
 
- ```mermaid
-graph TD;
-    A["Global Load Balancer"] -->|Traffic Distribution| B["Primary Region"]
-    A -->|Traffic Distribution| C["Secondary Region"]
-    B --> D["Regional Load Balancer - Primary"]
-    C --> E["Regional Load Balancer - Secondary"]
-    D --> F["Web Server - Primary"]
-    E --> G["Web Server - Secondary"]
-    F --> H["SQL VM - Primary"]
-    G --> I["SQL VM - Secondary"]
-    H -- Replication --> I
-    I -- Failover --> H
 
+
+                 +----------------------+
+                 |  Global Load Balancer |
+                 +----------------------+
+                           |
+      ---------------------------------------
+      |                                     |
++----------------+                  +----------------+
+| Primary Region |                  | Secondary Region |
++----------------+                  +----------------+
+      |                                     |
++--------------------+              +--------------------+
+| Regional Load Balancer |         | Regional Load Balancer |
++--------------------+              +--------------------+
+      |                                     |
++------------+                      +------------+
+| Webserver |                      | WebServerVM |
++------------+                      +------------+
+      |                                     |
++--------+       <== Replication ==>       +--------+
+| SQLVM  |       <==   & Failover ==>      | SQLVM  |
++--------+                                  +--------+
 
 
 
