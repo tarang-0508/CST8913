@@ -39,6 +39,7 @@ Azure: Strong enterprise adoption due to Microsoft’s dominance in the business
 
 Google Cloud: Provides industry-leading AI/ML capabilities with Vertex AI and AutoML, along with powerful real-time analytics through BigQuery.
 
+Table of Cloud Resource Comparison Across AWS, Azure, and Google Cloud
 
 | #  | Description | AWS (Service Name) | Azure (Service Name) | Google Cloud (Service Name) |
 |----|-------------|--------------------|----------------------|---------------------------|
