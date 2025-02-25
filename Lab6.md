@@ -26,7 +26,7 @@ Third-party software integration systems and external application programming in
 
 The mapping of dependencies can be achieved through software tools, including Azure Migrate, Azure Service Map, and Application Insights.
 
-
+```
 +---------------------+       +-----------------------+
 |  User Requests      | ----> | Windows Server 2019   |
 +---------------------+       +-----------------------+
@@ -40,8 +40,7 @@ The mapping of dependencies can be achieved through software tools, including Az
                        +---------------------+
                        | SQL Server (DB)    |
                        +---------------------+
-
-
+```
 
 2. Plan the Refactoring Strategy
 
@@ -131,6 +130,7 @@ Perform load testing using Azure Load Testing.
 
 Use Azure Chaos Studio to conduct fault simulations and test system resilience.
 
+```
 +---------------------+       +-----------------------+
 |  User Requests      | ----> | Azure App Service     |
 +---------------------+       +-----------------------+
@@ -153,7 +153,7 @@ Use Azure Chaos Studio to conduct fault simulations and test system resilience.
                        +---------------------+
                        | Azure Blob Storage  |
                        +---------------------+
-
+```
 Refrences :
 
 Azure App Service
