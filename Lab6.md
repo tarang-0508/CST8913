@@ -1,3 +1,9 @@
+Refactoring a Legacy Monolithic Web Application to a Cloud-Native Architecture on Microsoft Azure
+
+Introduction:
+
+I will conduct a refactoring project of a legacy monolithic web application which runs on a Windows Server 2019 virtual machine (VM) in Azure by converting it into a cloud-native architecture through Microsoft Azure service implementation. The goal targets both better scalability and increased resilience and enhanced maintainability as well as cost reduction. Evaluation of the present application becomes the first step followed by decomposition into microservices while choosing Azure App Services together with Azure SQL Database, Azure Functions and Azure Storage as the proper services. After completing the software changes I will deploy refactoring modifications followed by test-based performance and reliability verification. The final project deliverable contains a GitHub repository which provides the refactored application alongside documentation along with architecture diagrams to deliver practical experience of Azure service implementation and cloud application migration.
+
 1. Assess the Existing Architecture
 
 Assessing the current architecture represents the starting point for successfully refactoring a monolithic web application. The assessment includes documenting complete application components and analyzing their connections to other elements and how they communicate.
