@@ -60,7 +60,16 @@ A system of flexible control results from the combination of centralized governa
 - **Distributed Operating Model**:
 Under the Distributed operating model cloud resources extend across multiple cloud provider regions with no need for centralized administration. The distributed operating model achieves high scalability and fault tolerance at the same time as optimizing performance through its resource distribution mechanism across multiple locations. Managing distributed environments requires enormous complexity because individual teams maintain their separate domains while battling security problems and difficulties with infrastructure combination.
 
+### Best Model for Data Migration: Enterprise 
 
+- **Centralized Governance**: Ensures organization-wide consistency in security, compliance, and resource management. A central team guards policies and budgets and chooses key infrastructure decisions which supports oversight and decreases migration risks.
+
+- **Flexibility for Business Units**: The business units maintain independent control of their cloud environment setups yet remain under central management to achieve flexible innovation.
+
+- **Scalability**:The large-scale nature of data center migrations receives efficient and scalable structure through this method which enables proper resource management throughout the organization.
+
+- **Innovation and Customization**: 
+Organizations can enable their teams to optimize their cloud solutions by experimenting within defined organizational frameworks which allows each group to customize their approaches according to their specific needs.
 
 # 4.Landing Zone Deployment Strategies
 # 5.Personal Reflection
