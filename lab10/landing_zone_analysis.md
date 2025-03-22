@@ -47,5 +47,20 @@ The cloud environment allows organizations to create personalized configurations
 - **Application Landing Zone** serves best for the administration of particular workloads and applications. Application Landing Zones serve as implementations for cloud-native applications as well as serverless functions and microservices when these services need isolated resources that platform infrastructure does not necessarily need
 
 # 3.Analyze Operating Models
+
+- **Decentralized Operating Model**:
+Decision-making as well as resource management responsibilities lie across diverse business units and teams in the Decentralized operating model because each team maintains independent authority over their cloud environments. The decentralized model lets departments freely select tools together with technologies which optimize their requirements.The model introduces incongruent security and management methodologies while causing architectural conflicts which affect broad-scale operational compliance and scalability. 
+
+- **Centralized Operating Model**:
+A Centralized operating model functions through a single group of authority or a team which oversees and regulates the entire cloud infrastructure of the organization. A standardized operating approach provides consistency combined with security because all cloud resources must abide by unified policies.The centralized management approach streamlines governance operations but prevents flexibility and delays decisions because departments need centralized authority approval to function.
+
+- **Enterprise Operating Model**:
+A system of flexible control results from the combination of centralized governance and decentralized execution that makes up the Enterprise operating model. Joint security management teams control cloud enforcement along with resource planning yet business units operate under predefined cloud management parameters. The model enables organizations to achieve consistent operations along with scalable growth combined with department-level innovation and customization thus serving large-scale migration needs.
+
+- **Distributed Operating Model**:
+Under the Distributed operating model cloud resources extend across multiple cloud provider regions with no need for centralized administration. The distributed operating model achieves high scalability and fault tolerance at the same time as optimizing performance through its resource distribution mechanism across multiple locations. Managing distributed environments requires enormous complexity because individual teams maintain their separate domains while battling security problems and difficulties with infrastructure combination.
+
+
+
 # 4.Landing Zone Deployment Strategies
 # 5.Personal Reflection
