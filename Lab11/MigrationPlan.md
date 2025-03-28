@@ -5,7 +5,7 @@ Moving the core Patient Self-Booking System of Tailwind OpenCare to Microsoft Az
 
 ## Tools to Use:
 - **Azure Migrate**: Azure Migrate functions as the most suitable tool for discovering and assessing on-premises workloads before conducting a migration. Tailwind has two options with Azure Migrate Appliance either through agentless discovery to get all data or agent-based discovery to gain complete data specifics.
--  **Azure Migrate App Dependency Mapping**: The analysis tool App Dependency Mapping determines the service connections in the system.
+- **Azure Migrate App Dependency Mapping**: The analysis tool App Dependency Mapping determines the service connections in the system.
 - **Azure Migrate Database Assessment**: The Database Assessment tool serves as a method to determine whether PostgreSQL database will match the Azure Database for PostgreSQL.
 - **Azure Migrate Server Assessment**: Server Assessment conducts a survey of pre-existing NGINX, Node.js, PostgreSQL, Redis servers and develops migration planning.
 
