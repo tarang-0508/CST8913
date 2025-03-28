@@ -1,5 +1,5 @@
 # Migration Plan – Tailwind OpenCare
-Moving the core Patient Self-Booking System of Tailwind OpenCare to Microsoft Azure serves as an essential step for better scalability and reduced operational costs alongside compliance adherence. The migration blueprint features precise procedures to accomplish a smooth transition which delivers powerful data protection and small disruptions and efficient cost reduction through Azure-native functionalities.
+- Moving the core Patient Self-Booking System of Tailwind OpenCare to Microsoft Azure serves as an essential step for better scalability and reduced operational costs alongside compliance adherence. The migration blueprint features precise procedures to accomplish a smooth transition which delivers powerful data protection and small disruptions and efficient cost reduction through Azure-native functionalities.
 
 
 ## 1. Discovery and Tooling Setup
