@@ -106,7 +106,7 @@
 - You need to create DNS records which point to Azure resources.
 - The migration requires Azure Site Recovery or Azure Blob Storage replication for data consistency if applicable.
 
-## Role of Application Owners:
+## Role of Application Owners
 - Before starting migration: Application owners should test their systems with pre-migration simulations as well as through Azure application deployment testing.
 - Application owners should verify application functionality in Azure since they need to monitor performance during the first stages after system migration.
 
